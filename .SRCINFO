@@ -1,0 +1,18 @@
+pkgbase = brother-hll8260cdw
+	pkgdesc = Brother HL-L8260CDW CUPS driver
+	pkgver = 1.4.0
+	pkgrel = 1
+	url = http://brother.com
+	arch = i686
+	arch = x86_64
+	license = GPL
+	depends = cups
+	depends = ghostscript
+	source = http://download.brother.com/welcome/dlf103210/hll8260cdwlpr-1.3.0-0.i386.rpm
+	source = http://download.brother.com/welcome/dlf103219/hll8260cdwcupswrapper-1.4.0-0.i386.rpm
+	sha256sums = af6192f22f9b8bd0b6cbc11619fa6052c7dd3697af97eb9697249b7b506c5318
+	sha256sums = d69a65182fe3077d67a6e64b8ef424410d99a68560d62251e7ebc91cfa01c7c8
+	depends_x86_64 = lib32-glibc
+
+pkgname = brother-hll8260cdw
+
